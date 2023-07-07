@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     database_password: str
 
     class Config:
+        # hidden in /app
         env_file = ".env_local"
 
 
