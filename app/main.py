@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routes import leads, health
+from loguru import logger
 
 app = FastAPI(title="Demo Leads", debug=True)
 
